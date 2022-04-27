@@ -1,0 +1,51 @@
+body{
+    background-color: beige;
+}
+header h4{
+    color: rgb(22, 155, 107);
+    font-family:'Roboto Condensed', sans-serif;
+    font-style:italic;
+    font-size:1.5rem;
+}
+  nav ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 20;
+  }
+  nav li {
+    display:inline-block;
+    text-align: center;
+    flex: 1;
+  }
+  nav a{
+    display:inline-table;
+    font-size:medium;
+    height:auto;
+    line-height: 3;
+    text-decoration:underline;
+    color: blue;
+  }
+  section img{
+    flex: 4;
+    border-radius: 0%;
+    width: 25%;
+    height: auto;
+  }
+  h6{
+    font-size: medium;
+    font-family: cursive;
+    text-decoration: underline;
+  }
+  aside {
+    flex: 100;
+    margin-left: 15px;
+    padding-left: 115px;
+    float: right;
+  }
+  iframe{
+    width: 75%;
+    height: 350;
+  }
+  footer{
+    text-align: center;
+  }
