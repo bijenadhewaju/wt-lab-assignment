@@ -1,0 +1,44 @@
+.first {
+    width: 60vw;
+    margin: auto;
+    padding: 40px 0px;
+    display: flex;
+}
+.second{
+    margin-left: 30px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 70px;
+}
+#dot{
+    border-style: dotted;
+}
+#sol{
+    border-style: solid;
+}
+#gro{
+    border-style: groove;
+}
+#ins{
+    border-style: inset;
+}
+#non{
+    border-style: none;
+}
+#das{
+    border-style: dashed;
+}
+#dou{
+    border-style:double ;
+}
+#rid{
+    border-style:ridge ;
+}
+#ous{
+    border-style:outset ;
+}
+#hid{
+    border-style:hidden ;
+}
