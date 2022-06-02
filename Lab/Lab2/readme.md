@@ -29,7 +29,4 @@ padding: 70px
   margin: 35px;
 }
 ```
-### background-color:-
-It sets the background color of an element.<br>
-**Example:-**
-```css
+>>>>>>> 815b36c189c8c6c0e51989c89a98160319a38ec6
