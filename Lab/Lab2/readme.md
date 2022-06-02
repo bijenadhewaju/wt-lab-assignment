@@ -28,5 +28,3 @@ padding: 70px
  p {
   margin: 35px;
 }
-```
->>>>>>> 815b36c189c8c6c0e51989c89a98160319a38ec6

@@ -1,4 +1,3 @@
-Date:2022/05/19-2022/06/2
 ## Lab 4: Design Navbar, CTA, Hero section and 404 page.
 1. As shown in the figure below, design 404 page.
    ![404](404page.jpeg)
