@@ -1,0 +1,148 @@
+*{
+    text-decoration: none;
+}body{
+    font-family: sans-serif;
+}
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-block; 
+    position: fixed;
+    z-index: 5;
+}
+p.ttl{
+    display: inline;
+    font-weight: bolder;
+    font-size: 26px;
+    position: absolute;
+    top: -15px;
+    font-family: 'monospace';
+    float: left;
+    height: 50px;
+    background-color: rgb(113, 113, 188);
+    padding-top: 20px;
+  }
+.img1{
+    padding-top: 70px;
+    width: 100%;
+    height: 600px;
+}
+.lgo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-right: 6px;
+    float: left;
+}
+ul{
+    height: 5px;
+    background-color: rgb(230, 230, 250);
+    float: right;
+}
+.list{
+    margin-left: 228px;
+    height: 72px;
+    margin-top: -50px;
+    width: 82%;
+}
+li{
+    display: inline;
+    font-size: 30px;
+    list-style: none;
+}
+.list a{
+    color: black;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-right: 35px;
+    display: inline;
+    font-weight: lighter;
+    position: relative;
+    top: 15px; 
+   }
+.list a:hover{
+    border: 3px solid rgb(160, 155, 190);
+    background-color: rgb(160, 155, 190);
+    border-radius: 20%;
+}
+.list a:active{
+    border: 2px solid rgb(208, 206, 230);
+    background-color: rgb(208, 206, 230);
+    border-radius: 20%;
+ }
+ #about{
+     background-color: #bfdbfe;
+     padding-top: 100px;
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-bottom: 300px;
+ }
+ #about h1{
+     font-family: cursive;
+     font-size: 35px;
+ }
+ #about p{
+     text-align: left;
+     font-size: 20px;
+     font-family: 'Franklin Gothic Medium';
+     float: left;
+     margin-right: 400px;
+ }
+ #about .symb{
+     float: right;
+ }
+ .symb p{
+     position: absolute;
+     right: -100px;
+     margin-top: 0;
+
+ }
+ .symb img{
+     height: 100px;
+     width: 100px;
+     position: absolute;
+     right: 260px;
+     padding: 50px;
+ }
+ .symb .p2{
+    position: absolute;
+    right: -250px;
+    margin-top: 0;
+ }
+ .symb .img2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 90px;
+    padding: 50px;
+ }
+ #members{
+   background-color:#919ed5;
+ }
+.photo{
+    width: 40px;
+    /* height: 40px; */
+    /* border-radius: 50%; */
+    margin-left: 10px;
+}
+#members img{
+    padding: 50px;
+    border-radius:50%;
+    height: 500px;
+    width: 500px;
+}
+#aboutme{
+    width: 100%;
+    display: inline-block;
+    background-color:#b3adce;
+    text-align: center;
+}
+#aboutme img{
+    height: 45px;
+    margin: 20px;
+    margin-left: 100px;
+    
+}
