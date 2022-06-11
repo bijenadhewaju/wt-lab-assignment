@@ -2,3 +2,4 @@
 - 28th April-4th May [Lab2](https://github.com/bijenadhewaju/wt-lab-assignment/tree/master/Lab/Lab2)
 - 5th May-11th May [Lab3](https://github.com/bijenadhewaju/wt-lab-assignment/tree/master/Lab/Lab3)
 - 19th May-2nd June [Lab4](https://github.com/bijenadhewaju/wt-lab-assignment/tree/master/Lab/Lab4)
+- 9th June-15th June[Lab5](https://github.com/bijenadhewaju/wt-lab-assignment/tree/master/Lab/Lab5)
