@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <style type="text/css">
+        .box{
+            width: 70px;
+            height: 20px;
+            position: absolute;
+            background-color: grey;
+            border:rgb(11, 11, 11);
+            text-align: center;
+        }
+        .one{
+            left: 60px;
+        }
+        .two{
+            left: 150px;
+        }
+        .three{
+            left: 240px;
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div id="Ringer1" class="box one">Ringer</div>
+            <div id="Ringer2" class="box two">Ringer</div>
+            <div id="Roses" class="box three">Roses</div>
+        </div>
+   
+        <script>
+            document.querySelector("#Ringer1").addEventListener("mousedown", onMouseDown);
+            document.querySelector("#Ringer2").addEventListener("mousedown", onMouseDown);
+            document.querySelector("#Roses").addEventListener("mousedown", onMouseDown);
+    
+            function onMouseDown(event) {
+                let element = event.target;
+    
+                let shiftX = event.clientX - element.getBoundingClientRect().left;
+                let shiftY = event.clientY - element.getBoundingClientRect().top;
+    
+                moveAt(event.pageX, event.pageY);
+    
+                function moveAt(pageX, pageY) {
+                    element.style.left = pageX - shiftX + "px";
+                    element.style.top = pageY - shiftY + "px";
+                }
+    
+                function onMouseMove(event) {
+                    moveAt(event.pageX, event.pageY);
+                }
+    
+                document.addEventListener("mousemove", onMouseMove);
+    
+                function onMouseUp(event) {
+                    document.removeEventListener("mousemove", onMouseMove);
+                    element.onmouseup = null;
+                }
+    
+                document.addEventListener("mouseup", onMouseUp);
+            }
+        </script>
+</body>
+</html>
