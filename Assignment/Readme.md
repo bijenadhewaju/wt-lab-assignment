@@ -6,6 +6,6 @@
 [link](https://github.com/bijenadhewaju/wt-lab-assignment/tree/master/Assignment/Assignment5)
 ### Assignment6
 14th June-15thJune:-[link](https://github.com/bijenadhewaju/wt-lab-assignment/tree/master/Assignment/Assignment6)
-### Assignment5
+### Assignment7
 19th June-20th June:-[link](https://github.com/bijenadhewaju/wt-lab-assignment/tree/master/Assignment/Assignment7)
 
